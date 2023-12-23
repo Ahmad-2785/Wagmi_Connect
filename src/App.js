@@ -5,6 +5,7 @@ import { jsonRpcProvider } from "@wagmi/core/providers/jsonRpc";
 import { MetaMaskConnector } from "@wagmi/core/connectors/metaMask";
 
 import { ColorModeScript } from "@chakra-ui/react";
+import log from "simple-git/dist/src/lib/tasks/log";
 
 function App() {
   const { chains, publicClient, webSocketPublicClient } = configureChains(
@@ -36,8 +37,7 @@ function App() {
     ]
   );
 
-  console.log("here");
-
+  console.log("there are several technical skill abouts it");
   const config = createConfig({
     autoConnect: true,
     connectors: [
