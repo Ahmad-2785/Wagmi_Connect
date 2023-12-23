@@ -38,6 +38,7 @@ function App() {
   );
 
   console.log("there are several technical skill abouts it");
+  console.log("YOLO");
   const config = createConfig({
     autoConnect: true,
     connectors: [
