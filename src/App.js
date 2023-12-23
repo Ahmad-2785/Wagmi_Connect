@@ -35,6 +35,9 @@ function App() {
       }),
     ]
   );
+
+  console.log("here");
+
   const config = createConfig({
     autoConnect: true,
     connectors: [
